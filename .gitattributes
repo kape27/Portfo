@@ -1,0 +1,16 @@
+# Forcer l'encodage UTF-8 pour tous les fichiers texte
+* text=auto eol=lf
+
+# Fichiers HTML, CSS, JS en UTF-8
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.md text eol=lf
+
+# Images en binaire
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg binary
